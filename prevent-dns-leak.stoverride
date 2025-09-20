@@ -1,5 +1,5 @@
 payload:
-  - name: "Prevent DNS Leak"
+    name: "Prevent DNS Leak"
     desc: "Adds a rule to prevent DNS leaks and enables fake-ip mode."
     actions:
       - type: "script"
