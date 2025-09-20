@@ -1,8 +1,8 @@
 name: Apple Relay Proxy
 desc: Override for Apple Relay services to use proxy
-payload:
-  rules:
-    - DOMAIN-SUFFIX,apple-relay.cloudflare.com,proxy
-    - DOMAIN-SUFFIX,apple-relay.fastly-edge.com,proxy
-    - DOMAIN-SUFFIX,cp4.cloudflare.com,proxy
-    - DOMAIN-SUFFIX,apple-relay.apple.com,proxy
+
+rules:
+  - DOMAIN-SUFFIX,apple-relay.cloudflare.com,Proxy
+  - DOMAIN-SUFFIX,apple-relay.fastly-edge.com,Proxy
+  - DOMAIN-SUFFIX,cp4.cloudflare.com,Proxy
+  - DOMAIN-SUFFIX,apple-relay.apple.com,Proxy
